@@ -1,0 +1,6 @@
+# builds and tests
+build/
+test/
+
+# npm
+node_modules/

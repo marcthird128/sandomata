@@ -1,0 +1,26 @@
+{
+  "name": "sandomata",
+  "version": "0.0.1",
+  "description": "3d voxel sandbox game with automata-like physics",
+  "keywords": [
+    "3d",
+    "automata",
+    "sandbox",
+    "game"
+  ],
+  "homepage": "https://github.com/marcthird128/sandomata#readme",
+  "bugs": {
+    "url": "https://github.com/marcthird128/sandomata/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcthird128/sandomata.git"
+  },
+  "license": "ISC",
+  "author": "maza",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
