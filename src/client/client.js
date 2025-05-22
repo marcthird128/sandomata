@@ -6,12 +6,17 @@
 
 /* Import Dependencies */
 const { log } = require('../engine/error.js');
-const { config } = require('./config.js');
 const { assets } = require('./assets.js');
+const { gui } = require('./gui.js');
 
 /* Run Client */
 function initClient() {
-    log('Client running');
+    // init the GUI
+    gui.init();
+
+    // client initialized
+    log('Client initialized');
 }
 
-return { initClient }
+/* Export */
+module.exports = { initClient }
